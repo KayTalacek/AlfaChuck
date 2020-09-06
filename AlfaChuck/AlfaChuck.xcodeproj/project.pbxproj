@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB20A19925024F2500FBAD8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A19825024F2500FBAD8E /* AppDelegate.swift */; };
+		AB20A19B25024F2500FBAD8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A19A25024F2500FBAD8E /* SceneDelegate.swift */; };
+		AB20A1A025024F2500FBAD8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB20A19E25024F2500FBAD8E /* Main.storyboard */; };
+		AB20A1A225024F2700FBAD8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB20A1A125024F2700FBAD8E /* Assets.xcassets */; };
+		AB20A1A525024F2700FBAD8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB20A1A325024F2700FBAD8E /* LaunchScreen.storyboard */; };
+		AB20A1B025024F2800FBAD8E /* AlfaChuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A1AF25024F2800FBAD8E /* AlfaChuckTests.swift */; };
+		AB20A1BB25024F2800FBAD8E /* AlfaChuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A1BA25024F2800FBAD8E /* AlfaChuckUITests.swift */; };
+		AB20A1CB25025D7A00FBAD8E /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A1CA25025D7A00FBAD8E /* CategoriesViewController.swift */; };
+		AB20A1CD25025E8200FBAD8E /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A1CC25025E8200FBAD8E /* RandomViewController.swift */; };
+		AB20A1CF2502676300FBAD8E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A1CE2502676300FBAD8E /* AboutViewController.swift */; };
+		ABE439A825041925009E1141 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE439A725041925009E1141 /* CategoryViewController.swift */; };
+		ABE439AA25055047009E1141 /* GifService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE439A925055047009E1141 /* GifService.swift */; };
+		ABE439AC25055C34009E1141 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE439AB25055C34009E1141 /* CanvasView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB20A1AC25024F2800FBAD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB20A18D25024F2500FBAD8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB20A19425024F2500FBAD8E;
+			remoteInfo = AlfaChuck;
+		};
+		AB20A1B725024F2800FBAD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB20A18D25024F2500FBAD8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB20A19425024F2500FBAD8E;
+			remoteInfo = AlfaChuck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB20A19525024F2500FBAD8E /* AlfaChuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlfaChuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB20A19825024F2500FBAD8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB20A19A25024F2500FBAD8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB20A19F25024F2500FBAD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB20A1A125024F2700FBAD8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB20A1A425024F2700FBAD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB20A1A625024F2700FBAD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB20A1AB25024F2800FBAD8E /* AlfaChuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlfaChuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB20A1AF25024F2800FBAD8E /* AlfaChuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfaChuckTests.swift; sourceTree = "<group>"; };
+		AB20A1B125024F2800FBAD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB20A1B625024F2800FBAD8E /* AlfaChuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlfaChuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB20A1BA25024F2800FBAD8E /* AlfaChuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfaChuckUITests.swift; sourceTree = "<group>"; };
+		AB20A1BC25024F2800FBAD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB20A1CA25025D7A00FBAD8E /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		AB20A1CC25025E8200FBAD8E /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		AB20A1CE2502676300FBAD8E /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		ABE439A725041925009E1141 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		ABE439A925055047009E1141 /* GifService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifService.swift; sourceTree = "<group>"; };
+		ABE439AB25055C34009E1141 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB20A19225024F2500FBAD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB20A1A825024F2800FBAD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB20A1B325024F2800FBAD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB20A18C25024F2500FBAD8E = {
+			isa = PBXGroup;
+			children = (
+				AB20A19725024F2500FBAD8E /* AlfaChuck */,
+				AB20A1AE25024F2800FBAD8E /* AlfaChuckTests */,
+				AB20A1B925024F2800FBAD8E /* AlfaChuckUITests */,
+				AB20A19625024F2500FBAD8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB20A19625024F2500FBAD8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB20A19525024F2500FBAD8E /* AlfaChuck.app */,
+				AB20A1AB25024F2800FBAD8E /* AlfaChuckTests.xctest */,
+				AB20A1B625024F2800FBAD8E /* AlfaChuckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB20A19725024F2500FBAD8E /* AlfaChuck */ = {
+			isa = PBXGroup;
+			children = (
+				AB20A19825024F2500FBAD8E /* AppDelegate.swift */,
+				AB20A19A25024F2500FBAD8E /* SceneDelegate.swift */,
+				AB20A1CC25025E8200FBAD8E /* RandomViewController.swift */,
+				AB20A1CA25025D7A00FBAD8E /* CategoriesViewController.swift */,
+				AB20A19E25024F2500FBAD8E /* Main.storyboard */,
+				ABE439A925055047009E1141 /* GifService.swift */,
+				ABE439A725041925009E1141 /* CategoryViewController.swift */,
+				AB20A1CE2502676300FBAD8E /* AboutViewController.swift */,
+				AB20A1A125024F2700FBAD8E /* Assets.xcassets */,
+				AB20A1A325024F2700FBAD8E /* LaunchScreen.storyboard */,
+				ABE439AB25055C34009E1141 /* CanvasView.swift */,
+				AB20A1A625024F2700FBAD8E /* Info.plist */,
+			);
+			path = AlfaChuck;
+			sourceTree = "<group>";
+		};
+		AB20A1AE25024F2800FBAD8E /* AlfaChuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB20A1AF25024F2800FBAD8E /* AlfaChuckTests.swift */,
+				AB20A1B125024F2800FBAD8E /* Info.plist */,
+			);
+			path = AlfaChuckTests;
+			sourceTree = "<group>";
+		};
+		AB20A1B925024F2800FBAD8E /* AlfaChuckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB20A1BA25024F2800FBAD8E /* AlfaChuckUITests.swift */,
+				AB20A1BC25024F2800FBAD8E /* Info.plist */,
+			);
+			path = AlfaChuckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB20A19425024F2500FBAD8E /* AlfaChuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB20A1BF25024F2800FBAD8E /* Build configuration list for PBXNativeTarget "AlfaChuck" */;
+			buildPhases = (
+				AB20A19125024F2500FBAD8E /* Sources */,
+				AB20A19225024F2500FBAD8E /* Frameworks */,
+				AB20A19325024F2500FBAD8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlfaChuck;
+			productName = AlfaChuck;
+			productReference = AB20A19525024F2500FBAD8E /* AlfaChuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB20A1AA25024F2800FBAD8E /* AlfaChuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB20A1C225024F2800FBAD8E /* Build configuration list for PBXNativeTarget "AlfaChuckTests" */;
+			buildPhases = (
+				AB20A1A725024F2800FBAD8E /* Sources */,
+				AB20A1A825024F2800FBAD8E /* Frameworks */,
+				AB20A1A925024F2800FBAD8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB20A1AD25024F2800FBAD8E /* PBXTargetDependency */,
+			);
+			name = AlfaChuckTests;
+			productName = AlfaChuckTests;
+			productReference = AB20A1AB25024F2800FBAD8E /* AlfaChuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB20A1B525024F2800FBAD8E /* AlfaChuckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB20A1C525024F2800FBAD8E /* Build configuration list for PBXNativeTarget "AlfaChuckUITests" */;
+			buildPhases = (
+				AB20A1B225024F2800FBAD8E /* Sources */,
+				AB20A1B325024F2800FBAD8E /* Frameworks */,
+				AB20A1B425024F2800FBAD8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB20A1B825024F2800FBAD8E /* PBXTargetDependency */,
+			);
+			name = AlfaChuckUITests;
+			productName = AlfaChuckUITests;
+			productReference = AB20A1B625024F2800FBAD8E /* AlfaChuckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB20A18D25024F2500FBAD8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AB20A19425024F2500FBAD8E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AB20A1AA25024F2800FBAD8E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AB20A19425024F2500FBAD8E;
+					};
+					AB20A1B525024F2800FBAD8E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AB20A19425024F2500FBAD8E;
+					};
+				};
+			};
+			buildConfigurationList = AB20A19025024F2500FBAD8E /* Build configuration list for PBXProject "AlfaChuck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB20A18C25024F2500FBAD8E;
+			productRefGroup = AB20A19625024F2500FBAD8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB20A19425024F2500FBAD8E /* AlfaChuck */,
+				AB20A1AA25024F2800FBAD8E /* AlfaChuckTests */,
+				AB20A1B525024F2800FBAD8E /* AlfaChuckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB20A19325024F2500FBAD8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB20A1A525024F2700FBAD8E /* LaunchScreen.storyboard in Resources */,
+				AB20A1A225024F2700FBAD8E /* Assets.xcassets in Resources */,
+				AB20A1A025024F2500FBAD8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB20A1A925024F2800FBAD8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB20A1B425024F2800FBAD8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB20A19125024F2500FBAD8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB20A1CD25025E8200FBAD8E /* RandomViewController.swift in Sources */,
+				ABE439AA25055047009E1141 /* GifService.swift in Sources */,
+				ABE439AC25055C34009E1141 /* CanvasView.swift in Sources */,
+				AB20A19925024F2500FBAD8E /* AppDelegate.swift in Sources */,
+				AB20A1CB25025D7A00FBAD8E /* CategoriesViewController.swift in Sources */,
+				AB20A1CF2502676300FBAD8E /* AboutViewController.swift in Sources */,
+				ABE439A825041925009E1141 /* CategoryViewController.swift in Sources */,
+				AB20A19B25024F2500FBAD8E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB20A1A725024F2800FBAD8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB20A1B025024F2800FBAD8E /* AlfaChuckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB20A1B225024F2800FBAD8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB20A1BB25024F2800FBAD8E /* AlfaChuckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB20A1AD25024F2800FBAD8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB20A19425024F2500FBAD8E /* AlfaChuck */;
+			targetProxy = AB20A1AC25024F2800FBAD8E /* PBXContainerItemProxy */;
+		};
+		AB20A1B825024F2800FBAD8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB20A19425024F2500FBAD8E /* AlfaChuck */;
+			targetProxy = AB20A1B725024F2800FBAD8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB20A19E25024F2500FBAD8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB20A19F25024F2500FBAD8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB20A1A325024F2700FBAD8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB20A1A425024F2700FBAD8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB20A1BD25024F2800FBAD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB20A1BE25024F2800FBAD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB20A1C025024F2800FBAD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7ZU4P2P76;
+				INFOPLIST_FILE = AlfaChuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redroom.AlfaChuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB20A1C125024F2800FBAD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7ZU4P2P76;
+				INFOPLIST_FILE = AlfaChuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redroom.AlfaChuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AB20A1C325024F2800FBAD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7ZU4P2P76;
+				INFOPLIST_FILE = AlfaChuckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redroom.AlfaChuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlfaChuck.app/AlfaChuck";
+			};
+			name = Debug;
+		};
+		AB20A1C425024F2800FBAD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7ZU4P2P76;
+				INFOPLIST_FILE = AlfaChuckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redroom.AlfaChuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlfaChuck.app/AlfaChuck";
+			};
+			name = Release;
+		};
+		AB20A1C625024F2800FBAD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7ZU4P2P76;
+				INFOPLIST_FILE = AlfaChuckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redroom.AlfaChuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlfaChuck;
+			};
+			name = Debug;
+		};
+		AB20A1C725024F2800FBAD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7ZU4P2P76;
+				INFOPLIST_FILE = AlfaChuckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redroom.AlfaChuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlfaChuck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB20A19025024F2500FBAD8E /* Build configuration list for PBXProject "AlfaChuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB20A1BD25024F2800FBAD8E /* Debug */,
+				AB20A1BE25024F2800FBAD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB20A1BF25024F2800FBAD8E /* Build configuration list for PBXNativeTarget "AlfaChuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB20A1C025024F2800FBAD8E /* Debug */,
+				AB20A1C125024F2800FBAD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB20A1C225024F2800FBAD8E /* Build configuration list for PBXNativeTarget "AlfaChuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB20A1C325024F2800FBAD8E /* Debug */,
+				AB20A1C425024F2800FBAD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB20A1C525024F2800FBAD8E /* Build configuration list for PBXNativeTarget "AlfaChuckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB20A1C625024F2800FBAD8E /* Debug */,
+				AB20A1C725024F2800FBAD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB20A18D25024F2500FBAD8E /* Project object */;
+}
