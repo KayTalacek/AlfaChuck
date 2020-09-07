@@ -17,8 +17,8 @@
 		AB20A1CB25025D7A00FBAD8E /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A1CA25025D7A00FBAD8E /* CategoriesViewController.swift */; };
 		AB20A1CD25025E8200FBAD8E /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A1CC25025E8200FBAD8E /* RandomViewController.swift */; };
 		AB20A1CF2502676300FBAD8E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20A1CE2502676300FBAD8E /* AboutViewController.swift */; };
+		ABCD50492506D897009D7022 /* CatCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD50482506D897009D7022 /* CatCellTableViewCell.swift */; };
 		ABE439A825041925009E1141 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE439A725041925009E1141 /* CategoryViewController.swift */; };
-		ABE439AA25055047009E1141 /* GifService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE439A925055047009E1141 /* GifService.swift */; };
 		ABE439AC25055C34009E1141 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE439AB25055C34009E1141 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +56,8 @@
 		AB20A1CA25025D7A00FBAD8E /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		AB20A1CC25025E8200FBAD8E /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		AB20A1CE2502676300FBAD8E /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		ABCD50482506D897009D7022 /* CatCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCellTableViewCell.swift; sourceTree = "<group>"; };
 		ABE439A725041925009E1141 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		ABE439A925055047009E1141 /* GifService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifService.swift; sourceTree = "<group>"; };
 		ABE439AB25055C34009E1141 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,7 @@
 				AB20A1CC25025E8200FBAD8E /* RandomViewController.swift */,
 				AB20A1CA25025D7A00FBAD8E /* CategoriesViewController.swift */,
 				AB20A19E25024F2500FBAD8E /* Main.storyboard */,
-				ABE439A925055047009E1141 /* GifService.swift */,
+				ABCD50482506D897009D7022 /* CatCellTableViewCell.swift */,
 				ABE439A725041925009E1141 /* CategoryViewController.swift */,
 				AB20A1CE2502676300FBAD8E /* AboutViewController.swift */,
 				AB20A1A125024F2700FBAD8E /* Assets.xcassets */,
@@ -274,13 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB20A1CD25025E8200FBAD8E /* RandomViewController.swift in Sources */,
-				ABE439AA25055047009E1141 /* GifService.swift in Sources */,
 				ABE439AC25055C34009E1141 /* CanvasView.swift in Sources */,
 				AB20A19925024F2500FBAD8E /* AppDelegate.swift in Sources */,
 				AB20A1CB25025D7A00FBAD8E /* CategoriesViewController.swift in Sources */,
 				AB20A1CF2502676300FBAD8E /* AboutViewController.swift in Sources */,
 				ABE439A825041925009E1141 /* CategoryViewController.swift in Sources */,
 				AB20A19B25024F2500FBAD8E /* SceneDelegate.swift in Sources */,
+				ABCD50492506D897009D7022 /* CatCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.redroom.AlfaChuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -482,6 +483,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.redroom.AlfaChuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
